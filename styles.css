@@ -31,7 +31,7 @@ a {
 .main-top {
     width: 100%;
     height: 100vh;
-    background: url("/assets/bg.svg");
+    background: url("./assets/bg.svg");
     background-size: cover;
     background-position: center;
 }
@@ -96,7 +96,7 @@ a {
 .main-bottom {
     width: 100%;
     height: 100vh;
-    background: url("/assets/bgBottom.svg");
+    background: url("./assets/bgBottom.svg");
     background-size: cover;
 }
 .main-bottom-content {
