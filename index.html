@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diva Hosting</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+</head>
+<body>
+    <header class="header">
+        <img src="/assets/logo.png" class="header-logo">
+        <nav>
+            <a href="https://discord.gg/9x2p6AkBYT">Create Account</a>
+        </nav>
+    </header>
+    <section class="main-top">
+        <div class="main-top-content">
+            <h1>Diva Hosting</h1>
+            <p>From the developers of the music bot, <a href="https://top.gg/bot/911040188325691413">Diva</a></p>
+        </div>
+    </section>
+    <section class="main-info">
+        <h1>Why use Diva Hosting?</h1>
+        <div class="main-info-content">
+            <div class="main-info-content-item">
+                <img src="https://cdn.discordapp.com/avatars/796183774677041192/32320117f6e66881de56a85fc0eb601e.png?size=4096">
+                <h2>box</h2>
+                <p>hi</p>
+            </div>
+            <div class="main-info-content-item">
+                <img src="https://cdn.discordapp.com/avatars/796183774677041192/32320117f6e66881de56a85fc0eb601e.png?size=4096">
+                <h2>box</h2>
+                <p>hi</p>
+            </div>
+            <div class="main-info-content-item">
+                <img src="https://cdn.discordapp.com/avatars/796183774677041192/32320117f6e66881de56a85fc0eb601e.png?size=4096">
+                <h2>box</h2>
+                <p>hi</p>
+            </div>
+        </div>
+    </section>
+    <section class="main-bottom">
+        <div class="main-bottom-content">
+            <details class="main-bottom-content-detail">
+                <summary>Frequently Asked Questions</summary>
+                <p>At Diva Hosting, we understand that you may have questions about our services. To help you out, we have compiled a list of frequently asked questions that should provide you with the information you need. If you have any additional questions or concerns, please don't hesitate to reach out to our support team.</p>
+                <div class="main-bottom-content-detail-container">
+                    <div class="main-bottom-content-detail-item">
+                        <h1>I can't install node modules because of the ram limit</h1>
+                        <p>Make sure you have <code>package.json</code> file with all of your packages you want to install then press "Reinstall" button available in the "Settings" tab on your server.</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>I can't install python modules because of the ram limit</h1>
+                        <p>Make sure you have <code>requirements.txt</code> file with all of your packages you want to install then press "Reinstall" button available in the "Settings" tab on your server.</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>How can I upload my files?</h1>
+                        <p>First compress your files into an archive (zip, tar, rar) after that upload the archive to the file manager on the panel. Then right click on the uploaded file and click "Unarchive". And you will have your files uploaded. You can also use sftp</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Why is my account not creating?</h1>
+                        <p>Check your username. It should have 3+ characters in it, and cannot use any special characters.<br>Check your email. If it is being used, it won't create your account.<br>If none of these are the case, contact support.</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>My file is over 100MB!</h1>
+                        <p>Make sure you didn't include your node_modules folder or your .git folder, as these take up a lot of space. If your code is still above 100mb, you're doing something wrong. We would recommend you use sftp.</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>How can I change my password?</h1>
+                        <p>In the panel you can login with discord, or you can use <code>/password-rese</code>t to get a new password for your account.</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>How do I install my packages manually?</h1>
+                        <p>For node.js, run npm i package-name. For Python, run pip install package-name. This will work if your startup command is set to bash.</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>How can I link my domain to my server?</h1>
+                        <p>To link your domain to your server, please open a ticket using <code>/ticket</code>, and we will assist you in proxy the domain for you.</p>
+                    </div>
+                </div>
+            </details>
+            <details class="main-bottom-content-detail">
+                <summary>Hosting Plans</summary>
+                <p>You agree to use a fair CPU usage. If your using an unfair amount of cpu you may get limited.</p>
+                <div class="main-bottom-content-detail-container" id="plansFree">
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Free</h1>
+                        <ul>
+                            <li>CPU: 400%</li>
+                            <li>RAM: 286MB</li>
+                            <li>Storage: 1GB</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-bottom-content-detail-container" id="plans">
+                    <div class="main-bottom-content-detail-item">
+                        <h1>1$ / month</h1>
+                        <ul>
+                            <li>CPU: 400%</li>
+                            <li>RAM: 400MB</li>
+                            <li>Storage: 1GB</li>
+                        </ul>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>2$ / month</h1> 
+                        <ul>
+                            <li>CPU: 400%</li>
+                            <li>RAM: 650MB</li>
+                            <li>Storage: 1.5GB</li>
+                        </ul>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>3$ / month</h1>
+                        <ul>
+                            <li>CPU: 400%</li>
+                            <li>RAM: 1GB</li>
+                            <li>Storage: 2GB</li>
+                        </ul>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>4$ / month</h1>
+                        <ul>
+                            <li>CPU: 400%</li>
+                            <li>RAM: 1.5GB</li>
+                            <li>Storage: 2GB</li>
+                        </ul>
+                    </div>
+                </div>
+            </details>
+            <details class="main-bottom-content-detail">
+                <summary>Available Languages</summary>
+                <div class="main-bottom-content-detail-container">
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Node.JS</h1>
+                        <p>18, 17, 16, 14, 12</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Python</h1>
+                        <p>3.10, 3.9, 3.7</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Rust</h1>
+                        <p>Latest</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Go</h1>
+                        <p>1.18, 1.16</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Lua</h1>
+                        <p>5.4</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Java</h1>
+                        <p>17, 16, 11, 8</p>
+                    </div>
+                    <div class="main-bottom-content-detail-item">
+                        <h1>Bun</h1>
+                        <p>edge</p>
+                    </div>
+                </div>
+            </details>
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div>
+                    <img src="/assets/logoBig.png" alt="logo" class="footer-logo">
+                    <p>Made by <a href="https://github.com/what-question-mark">@What-Question-Mark</a> <img src="/assets/heart.svg" id="footerHeart"></p>
+                </div>
+                <div class="footer-item-container">
+                    <div class="footer-item">
+                        <h1>Links</h1>
+                        <ul>
+                            <li><a href="https://sys.divahosting.net/" target="_blank">Panel</a></li>
+                            <li><a href="https://status.divahosting.net/" target="_blank">Status Page</a></li>
+                            <li><a href="https://discord.gg/2Z8Y4Z9/" target="_blank">Discord</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h1>Legal</h1>
+                        <ul>
+                            <li><a href="./tos" target="_blank">Terms of Service</a></li>
+                            <li><a href="./privacy" target="_blank">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
