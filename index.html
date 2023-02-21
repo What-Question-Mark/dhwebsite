@@ -36,7 +36,7 @@
     <section class="main-top">
         <div class="main-top-content">
             <h1>Diva Hosting</h1>
-            <p>From the developers of the music bot, <a href="https://top.gg/bot/911040188325691413">Diva</a></p>
+            <p>Diva hosting is a <span id="main-top-description"></span> hosting service</p>
         </div>
     </section>
     <section class="main-info">
@@ -207,5 +207,24 @@
             </div>
         </footer>
     </section>
+    
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        new Typewriter(document.getElementById('main-top-description'), {
+            strings: [
+                'Reliable',
+                'Efficient',
+                'Free',
+                'Advanced',
+                'Secure',
+                'Fast',
+                'High-performance'
+            ],
+            autoStart: true,
+            loop: true,
+            delay: 75,
+            cursor: ''
+        }).start();
+    </script>
 </body>
 </html>
