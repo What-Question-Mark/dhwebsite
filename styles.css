@@ -127,7 +127,7 @@ img {
     animation: emphasisScroll 1.5s linear infinite;
     font-weight: 800;
     color: #0000;
-    background-image: linear-gradient(90deg,var(--brand-1),var(--brand-2),var(--brand-3),var(--brand-4),var(--brand-5),var(--brand-1));
+    background-image: linear-gradient(90deg, var(--brand-1), var(--brand-2), var(--brand-3), var(--brand-4), var(--brand-5), var(--brand-1));
     background-clip: text;
     background-size: 200%;
     -webkit-background-clip: text;
@@ -310,7 +310,7 @@ details[open] summary:after {
 .footer-gradient {
     -webkit-animation: emphasisScroll 1.5s linear infinite;
     animation: emphasisScroll 1.5s linear infinite;
-    background-image: linear-gradient(90deg,var(--brand-1),var(--brand-2),var(--brand-3),var(--brand-4),var(--brand-5),var(--brand-1));
+    background-image: linear-gradient(90deg, var(--brand-1), var(--brand-2), var(--brand-3), var(--brand-4), var(--brand-5), var(--brand-1));
     background-size: 200%;
     height: 0.5em;
 }
@@ -334,20 +334,24 @@ details[open] summary:after {
         grid-gap: 2.5%;
     }
 }
- 
+
 @media screen and (max-width: 768px) {
     .main-info-content {
         grid-template-columns: 1fr 1fr;
-    } 
+    }
+
     .main-info-content {
         display: block;
     }
+
     .main-bottom-content-detail {
         padding: 0 10% 5%;
     }
+
     .footer {
         padding: 1% 10%;
     }
+
     .footer-container {
         grid-gap: 0;
     }
@@ -357,18 +361,23 @@ details[open] summary:after {
     .main-top-content h1 {
         font-size: 5rem;
     }
+
     .main-info-content {
         display: block;
     }
+
     .main-bottom-content-detail {
         padding: 0 5% 5%;
     }
+
     .main-bottom-content-detail-item summary {
         font-size: 1.5rem;
     }
+
     .footer {
         padding: 1% 5%;
     }
+
     .footer-container {
         grid-gap: 0;
     }
